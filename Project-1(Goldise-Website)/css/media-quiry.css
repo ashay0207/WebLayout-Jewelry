@@ -1,0 +1,294 @@
+@media(max-width:500px){
+    .left-contact-nav{
+        display: none;
+    }
+    .left-nav-bar p{
+        display: block;
+    }
+    .left-nav-bar p a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+    .center-logo-nav .main-ul{
+        display: none;
+    }
+    
+    .right-search-nav{
+        display: none;
+    }
+    .right-cart p{
+        display: block;
+    }
+    .right-cart p a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+    .image-contanner{
+        /* transform: scale(0.8); */
+        top: 70%;
+        left: 20%;
+    }
+    .image-contanner h1{
+        font-size: 35px;
+    }
+    .image-contanner p{
+        margin: 20px 0px 20px 60px;
+        font-size: 14px;
+        
+    }
+    .image-contanner a{
+        margin: 0px 0px 0px 60px;
+    }
+    #col1{
+        width: 100%;
+    }
+    #col2,#col3{
+        display: none;
+    }
+
+    .shop-info{
+       padding: 0px 100px;
+    }
+    .shop-info p{
+        width: 100%;
+        padding: 30px;
+    }
+    #contanner2-laxury-jewelry h1{
+        font-size: 30px;
+    }
+    .laxury-type ul li a{
+        font-size: 12px;
+    }
+    .collection{
+        padding: 20px;
+    }
+    .collection .arrive{
+        width: 100%;
+    }
+
+    #contanner3-shaps{
+        display: block;
+    }
+    .text-shap{
+        width: 100%;
+        padding: 0;
+    }
+    .text-shap h1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        padding: 50px 0px;
+    }
+    .six-shaps{
+        width: 100%;
+    }
+    .six-shaps .shaps{
+        width: 100%;
+    }
+    .six-shaps .shaps .s{
+        width: 33.3%;
+    }
+    #s6{
+        margin-left: 0;
+    }
+
+    #contanner4-image{
+        display: block;
+        position: relative;
+    }
+    .con-img{
+        width: 100%;
+        padding: 0;
+    }
+    #con-img1{
+        background-size: 100% 120%;
+    }
+    #con-img2,#con-img3,#con-img4,#con-img5,#con-img6{
+        display: none;
+    }
+    #contanner4-image p{
+        display: flex;
+        position: absolute;
+    }
+    #contanner4-image p i{
+        border: 1px solid red;
+        font-size: 50px;
+    }
+    .history-img{
+        height: 400px;
+        width: 450px;
+        left:20px;
+        top: 30px;
+        padding: 30px;
+    }
+    .history2{
+        /* padding: 250px 0px 0px 0px; */
+        position: relative;
+    }
+    .shop-history{
+        position: absolute;
+        left: -60px;
+        bottom: 30px;
+        height: 300px;
+        width: 450px;
+    }
+    .shop-history h1{
+        padding: 30px 0px;
+        font-size: 25px;
+    }
+    .shop-history p{
+        font-size: 12px;
+    }
+    .shop-history .read{
+        margin: 10px 0px;
+    }
+
+    #contanner6-bestseller{
+        padding: 30px 0px;
+    }
+    .left-seller{
+        width: 100%;
+    }
+    .left-seller h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .top-product{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .product{
+        width: 100%;
+        height: auto;
+    }
+    .right-seller{
+       position: static;
+       width: 100%;
+    }
+    #main-company p{
+        display: flex;
+    }
+    .company{
+        display: none;
+    }
+    #company1,#company2,#company3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0px 20px 0px 20px;
+    }
+    .review-h1{
+        font-size: 25px;
+        padding: 30px 0px;
+    }
+    .main-review{
+        padding: 20px;
+    }
+    .review{
+        width: 100%;
+    }
+    .review a{
+        padding: 5px;
+    }
+    .review a i{
+        font-size: 20px;
+    }
+    .main1-semi{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .semi-image{
+        height: 300px;
+        width: 400px;
+        position: static;
+        margin: 40px;
+    }
+    .semi-content{
+        margin: 0%;
+        height: auto;
+        border: 1px solid #C6AD8A;
+    }
+    .semi-content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .semi-content p{
+        text-align: center;
+    }
+    .semi-content a{
+        padding: 20px 35px;
+        font-size: 12px;
+    }
+    #contanner8-news .news-h1{
+        font-size: 25px;
+    }
+
+    .main-news{
+        display: block;
+    }
+    .news{
+        width: 100%;
+    }
+    #contanner9-last-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #last-img1,#last-img2,#last-img3,#last-img4,#last-img5,#last-img6,#last-img7,#last-img9{
+        width: 33.3%;
+        height: 170px;
+        position: static;
+    }
+    #last-img8{
+        width: 66%;
+        /* height: 180px; */
+        position: static;
+    }
+    #last-img9{
+        height: 150px;
+    }
+    #contanner10-search{
+        display: block;
+        padding: 0;
+    }
+    #contanner10-search h1{
+        font-size: 25px;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    #contanner10-search input{
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: 30px 0px 10px 0px;
+    }
+    #contanner10-search span{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 0px 0px 20px 20px;
+
+    }
+    #contanner10-search span a{
+        padding: 4% 42%;
+    }
+
+    .footer-information{
+        display: block;
+        padding: 50px 50px
+    }
+    .footer-design-by{
+        display: block;
+    }
+    .footer-design-by h3{
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer-design-by h4{
+        margin: 10px 0px 0px 100px;
+    }
+
+}
+
